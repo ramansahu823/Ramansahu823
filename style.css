@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    border: border-box;
+}
+
+.firsthead {
+    margin-top: 2px;
+    height: 84px;
+    background-color: rgb(252, 251, 251);
+    color: black;
+    border: 0.2px solid rgb(233, 221, 221);
+    border-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.headtag {
+    height: 28px;
+    width: 190x;
+    color: rgb(126, 34, 206);
+    margin-left: 30px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.headoption {
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+p {
+    margin-left: 15px;
+}
+
+p:hover {
+    border: 2px solid rgb(126, 34, 206);
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.icon {
+    /* margin-left: 15px; */
+    font-size: 30px;
+    color: rgb(126, 34, 206);
+}
+
+.Login {
+    height: 38px;
+    width: 58px;
+    border: 2px solid rgb(126, 34, 206);
+    ;
+    border-radius: 10px;
+    background-color: rgb(126, 34, 206);
+    color: white;
+    font-size: 15px;
+}
+
+.Login:hover {
+    background-color: blueviolet;
+}
+
+.Login2 {
+    margin-left: 15px;
+    height: 38px;
+    width: 70px;
+    border: 2px solid rgb(126, 34, 206);
+    border-radius: 10px;
+    background-color: rgb(126, 34, 206);
+    color: white;
+    font-size: 15px;
+
+}
+
+.Login2:hover {
+    background-color: blueviolet;
+}
+
+/** Second head**/
+.secondhead {
+    height: 40px;
+    border: 0.5px solid rgb(233, 228, 228);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgb(126, 34, 206);
+}
+
+.houseicon {
+    width: 10px;
+    font-size: 16px;
+    /* margin-left: 50px; */
+}
+
+.langtab {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.searchicon {
+    width: 10px;
+    font-size: 18px;
+
+}
+
+/** Mid part **/
+/* 
+.firstmidbody{
+    height: 384px;
+    border: 0.5px solid gray;
+    background-color: white ;
+}
+.leftmidbody{
+    height: 384px;
+    width: 504px;
+}
+.heading{
+    height: 80px;
+    width: 400px;
+    display: flex;
+    font-size: 23px;
+ 
+}*/
+
+.videocontaint {
+    height: 580px;
+    /* border: 2px solid rgb(172, 165, 165); */
+    /* background-color: red; */
+    text-align: center;
+    /* display: inline; */
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    /* flex-wrap: wrap; */
+}
+
+.headingtag {
+    text-align: center;
+}
+
+.heading {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+.box1 {
+    width: 319px;
+    height: 520px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin-left: 40px;
+    background-image: url(https://www.codewithharry.com/_next/image/?url=https%3A%2F%2Fcwh-full-next-space.fra1.digitaloceanspaces.com%2Fvideoseries%2Fpython-100-days-of-code-1%2F7wnove7K-ZQ-HD.jpg&w=384&q=75);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+}
+
+.box2 {
+    width: 319px;
+    height: 520px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin-left: 40px;
+    background-image: url(https://www.codewithharry.com/_next/image/?url=https%3A%2F%2Fcwh-full-next-space.fra1.digitaloceanspaces.com%2Fvideoseries%2Fultimate-js-tutorial-hindi-1%2FJS-Thumb.jpg&w=384&q=75);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+}
+
+.box3 {
+    width: 319px;
+    height: 520px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin-left: 40px;
+    background-image: url(https://www.codewithharry.com/_next/image/?url=https%3A%2F%2Fcodewithharry.nyc3.cdn.digitaloceanspaces.com%2Fassets%2F090fefe24d23d47584f6ddc7eb5a241e.png&w=384&q=75);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+}
+
+.titlebar {
+    margin-top: 200px;
+    margin-bottom: 10px;
+
+}
+
+.secondpara {
+    margin: 20px;
+    /* margin-right: 20px; */
+}
+
+.watching {
+    height: 45px;
+    width: 121px;
+    border: 2px solid rgb(126, 34, 206);
+    background-color: rgb(126, 34, 206);
+    color: white;
+    font-size: 15px;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.watching:hover {
+    background-color: rgb(73, 0, 141);
+}
+
+.textcontent {
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.textheading{
+    text-align: center;
+}
+
+.Testimonials2 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 38px;
+    margin-bottom: 40px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.parabox1 {
+    height: 300px;
+    width: 470px;
+    border: 0 solid #c5c7c9;
+    background-color: #e0dee7;
+    margin-left: 22px;
+    margin-top: 25px;
+    padding: 20px;
+    line-height: 1.625;
+    margin-bottom: 1.5rem;
+}
+.parabox2 {
+    height: 300px;
+    width: 470px;
+    border: 0 solid #c5c7c9;
+    background-color: #eee5e5;
+    margin-left: 22px;
+    margin-top: 25px;
+    padding: 20px;
+    line-height: 1.525;
+    margin-bottom: 1.5rem;
+}
+
+.fa-solid {
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    font-size: 28px;
+    color: rgb(132, 133, 134);
+    text-align: left;
+}
+.textpara{
+    margin-left: 20px;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 15px
+}
+.textpara2{
+    margin-left: 20px;
+    font-size: 17.46px;
+    text-align: left;
+    margin-bottom: 15px
+}
+.name{
+    margin-left: 35px;
+    display: flex;
+    font-weight: 700;
+}
+.developer{
+    margin-left: 35px;
+    display: flex;
+    font-weight: 500;
+}
+.firstfooter{
+    height: 80px;
+    background-color:#f7f3f3;
+    display: flex;
+}
+img{
+    height: 50px;
+    width: 50px;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+.footertitle{
+    height: 50px;
+    font-size: 25px;
+    margin-top: 22px;
+    margin-left: 15px;
+}
+.footerpara{
+    font-size: 15px;
+    margin-top: 30px;
+    font-weight: 300;
+}
+.footericon{
+    width: 440px;
+    text-align: right;
+    margin-top: 24px;
+    /* margin-left: 300px; */
+    font-size: 23px;
+}
+.fa-brands{
+    margin-left: 8px;
+}
